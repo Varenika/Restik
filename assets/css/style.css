@@ -21,6 +21,9 @@ a:hover{
     color: #f32ed2;
 }
 
+.navbar-brand img{
+    width: 80px;
+}
 
 img{
     width: 100%;
@@ -164,6 +167,7 @@ box-shadow: 0 10px 40px #222;
 /*Team*/
 .Povar img{
     max-width: 140px;
+    max-height: 200px;
     box-shadow: -10px -5px 0 #f32ed2;
     border-radius: 100%;
 }
@@ -241,8 +245,9 @@ color: #f32ed2;
 .collapsed{
     color: #777;   
 }
-.accordion-button::after{
-    color: #f32ed2;
+.accordion-item {
+    background-color: #c723ac;
+    color: #fff;
 }
 
 
@@ -251,3 +256,7 @@ color: #f32ed2;
  border-color: #f32ed2;
  }
 
+ 
+.accordion-button:not(.collapsed) {
+    color: #c723ac;
+ }
