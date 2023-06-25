@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&family=Spline+Sans:wght@400;500;600&display=swap');
+
+body{
+    font-family: "SplineSans" , sans-serif;
+    color: #777;
+    line-height: 1.7;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color: #222;
+}
+
+a{
+    color: #222;
+    text-decoration: none;
+    transition: all .6s;
+}
+
+a:hover{
+    color: #f32ed2;
+}
+
+
+img{
+    width: 100%;
+}
+
+section{
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
+.shadow-on-hover{
+transition: all .5s ease;
+}
+.shadow-on-hover2{
+    transition: all .5s ease;
+    }
+
+.shadow-on-hover:hover{
+ box-shadow: 1px 12px 26px 8px #222;
+}
+.shadow-on-hover2:hover{
+    box-shadow: 1px 12px 26px 8px #222;
+   }
+
+
+/* overflow: hidden; чтоб не узжала картинка за границы и transform: scale(1.2); увеличение картинки*/
+.granica{
+ overflow: hidden;
+}
+.shadow-on-hover:hover img{
+transform: scale(1.2);
+}
+/**/
+ .radius{
+border-radius: 15px;
+ }
+ .radius-t{
+    border-radius: 15px 15px 0 0;
+ }
+
+
+/*кнопки*/
+.btn{
+    border-radius: 10px;
+    padding: 14px 38px;    
+}
+
+.btn-brand{
+    border: solid 2px;
+    color: #fff;   
+    font-weight: 500;
+    border-color: #f32ed2;
+    background-color: #f32ed2;
+}
+.btn-brand:hover{   
+    color: #000;
+    border-color: #c723ac;
+    background-color: #c723ac00;    
+}
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.slide-1{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgb(0, 0, 0,0.5)), url(../images/cover1.jpg);
+}
+.slide-2{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgb(0, 0, 0,0.5)), url(../images/cover2.jpg);
+}
+.slide-3{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(77, 6, 6, 0.5)), url(../images/cover3.jpg);
+}
+
+.CCP,.CCN{
+    background-color: rgba(0, 0, 0, 0.596);
+    width: 40px;
+    height: 70px;
+    margin: auto;    
+}
+
+#about .divider{
+width: 60px;
+height: 2px;
+display: block;
+background-color: #c723ac;
+}
+.intro-text{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.intro-text p{
+    max-width: 500px;
+    margin: 16px auto 0 auto;
+}
+#menu .nav-pills .nav-link {
+background-color: #fff;
+margin-left: 8px;
+margin-right: 8px;
+color: #222;
+border-radius: 100px;
+box-shadow: 0 10px 40px #222;
+}
+
+#menu .nav-pills .nav-link.active {
+    background-color: #f32ed2;
+    color: #fff;
+}
+
+.stars{
+    color: #f32ed2;
+}
+
+
+/*Features*/
+
+#features{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgb(0, 0, 0,0.5)), url(../images/cover3.jpg);
+}
+.featere{
+    border: 2px solid #c723ac;
+}
+.feature-icon{
+    width: 80px;
+    height: 80px;
+    background-color: #f32ed2;
+    color: #fff;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.height-feature{
+    height: 60%;
+}
+
+
+
+
+/*Team*/
+.Povar img{
+    max-width: 140px;
+    box-shadow: -10px -5px 0 #f32ed2;
+    border-radius: 100%;
+}
+
+/*rezervation*/
+#reservation{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(77, 6, 6, 0.5)), url(../images/cover2.jpg);   
+}
+
+.rewiew img{
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+}
+.rewiew .quote{
+ color: #f32ed2;
+}
+    
+
+.bg-form{
+  border-radius: 20px;
+  box-shadow: 0 10px 40px #222;
+}
+#bron .form-control:focus {
+box-shadow: none;
+border-color: #f32ed2;
+}
+
+
+/*Insta photo*/
+.insta-post{
+    position: relative;
+    overflow: hidden;
+
+}
+.insta-post .insta-btn{
+    border-radius: 6px;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 26px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.insta-post img{
+    transition: .4s;    
+}
+.insta-post:hover img{
+    transform: scale(1.2);
+}
+
+.insta-post:hover .insta-btn{
+    opacity: 1;
+}
+
+footer a{
+color: #fff;
+font-size: 24px;
+font-weight: normal;
+margin-right: 10px;
+}
+
+.quote-icon{
+color: #f32ed2;
+
+}
+
+.collapsed{
+    color: #777;   
+}
+.accordion-button::after{
+    color: #f32ed2;
+}
+
+
+.accordion-button:focus {
+ box-shadow: none;
+ border-color: #f32ed2;
+ }
+
